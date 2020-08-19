@@ -1,23 +1,19 @@
-# Example Plugin for PowerNukkit
-This is an example plugin which can also be used as template to start your own plugin.
+# GetID Plugin
+This is a tiny plugin that adds the `/getid` command to PowerNukkit.
 
-As an example I created a plugin named clone-me, it creates a clone of yourself when you run `/clone`
-and gives you a flower if you hit the clone and then despawn the clone. It also send some fancy messages.
+It allows you to show the numeric universal item and block id, including the negative ids for that is assigned to new blocks.
 
-These is enough to serve as an example on how to:
-- Begin a new plugin
-- Create event listeners and handlers
-- Create custom commands
-- Format text
-- Spawn NPCs
-- Despawn NPCs
-- Detect attacks
-- Make entities invulnerable
-- Create and fill a `plugin.yml` file
-- Debug your plugin properly
+Example usage:
+- /getid bow
+- /getid campfire
+- /getid light_block
+- /getid smoker
+
+Permission:
+- getid.cmd.use (default: true)
 
 ## Cloning and importing
-1. Just do a normal `git clone https://github.com/PowerNukkit/ExamplePlugin.git` (or the URL of your own git repository)
+1. Just do a normal `git clone https://github.com/PowerNukkit/getid-plugin.git` (or the URL of your own git repository)
 2. Import the `pom.xml` file with your IDE, it should do the rest by itself
 
 ## Debugging
